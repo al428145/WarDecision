@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 
 public class LogicaPeleaV2 : MonoBehaviour
-{
+{ 
     // Recordamos conversión: 1 soldado cuesta 0.25 de oro
     public int tropasFranquistas = 20000;
     public int tropasRepublicanas = 22000;
@@ -16,18 +16,18 @@ public class LogicaPeleaV2 : MonoBehaviour
     int poderFranquista;
     int poderRepublicano;
 
+    var numerosTerritorios = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
 
-    public void Batalla ()
-    {
-
-    }
+    // Galicia: 1, Pais Vasco: 2, Barcelona: 3, Valencia: 4, Andalucia: 5, Castilla: 6, Madrid: 7
 
     // Start is called before the first frame update
     void Start()
     {
-        
-
+        public int valorRandom = Random.Range(1, 8);
+        numerosTerritorios.Remove(valorRandom);
     }
+        
+    
 
     // Update is called once per frame
     void Update()
@@ -41,5 +41,10 @@ public class LogicaPeleaV2 : MonoBehaviour
         {
             SceneManager.LoadScene("VictoriaFranquista");
         }
+    }
+
+    public void Batalla()
+    {
+        
     }
 }
