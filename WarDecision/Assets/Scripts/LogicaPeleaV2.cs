@@ -16,15 +16,26 @@ public class LogicaPeleaV2 : MonoBehaviour
     int poderFranquista;
     int poderRepublicano;
 
-    var numerosTerritorios = new List<int>() { 1, 2, 3, 4, 5, 6, 7 };
+    public GameObject andalucia;
+    public GameObject castilla;
+    public GameObject galicia;
+    public GameObject paisvasco;
+    public GameObject barcelona;
+    public GameObject valencia;
+    public GameObject madrid;
 
-    // Galicia: 1, Pais Vasco: 2, Barcelona: 3, Valencia: 4, Andalucia: 5, Castilla: 6, Madrid: 7
+    private int turno = 1; // par = republicano, impar = franquista
 
     // Start is called before the first frame update
     void Start()
     {
-        public int valorRandom = Random.Range(1, 8);
-        numerosTerritorios.Remove(valorRandom);
+        andalucia.SetActive(true);
+        castilla.SetActive(false);
+        galicia.SetActive(false);
+        paisvasco.SetActive(false);
+        barcelona.SetActive(false);
+        valencia.SetActive(false);
+        madrid.SetActive(false);
     }
         
     
@@ -32,6 +43,16 @@ public class LogicaPeleaV2 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if (turno % 2 == 0) // turno republicano
+        {
+
+        }
+        else // turno franquista
+        {
+
+        }
+
+
         if (tropasFranquistas == 0 || oroFranquista == 0 || territoriosRepublicanos == 7)
         {
             SceneManager.LoadScene("VictoriaRepublicana");
