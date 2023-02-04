@@ -5,6 +5,8 @@ using UnityEngine;
 public class Logicadepelea : MonoBehaviour
 {
     public int gold;
+    public int goldPlayer1;
+    public int goldPlayer2;
     public int troops;
     public int player1Troops;
     public int player2Troops;
@@ -94,12 +96,25 @@ public class Logicadepelea : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        public int tropasFranquistas = 20000;
+        public int tropasRepublicanas = 22000;
+        public int oroFranquista = 1500;
+        public int oroRepublicano = 1300;
+        // Recordamos conversión: 1 soldado cuesta 0.25 de oro
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (tropasFranquistas == 0 || oroFranquista == 0)
+        {
+            
+        }
+
+        if (tropasRepublicanas == 0 || oroRepublicano == 0)
+        {
+
+        }
     }
 }
