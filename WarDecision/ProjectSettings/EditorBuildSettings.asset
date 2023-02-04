@@ -9,6 +9,39 @@ EditorBuildSettings:
     path: 
     guid: 00000000000000000000000000000000
   - enabled: 1
+    path: Assets/Scenes/InicioYOpciones.unity
+    guid: ca12eab5abcd78846ae9ba6368a1115f
+  - enabled: 1
+    path: Assets/Scenes/SeleccionBando.unity
+    guid: cc9171af37f59e94a9f5bf298da1080a
+  - enabled: 1
+    path: Assets/Scenes/Dificultad.unity
+    guid: 9b2c77b9b459949439470e8e5a9196b1
+  - enabled: 1
+    path: Assets/Scenes/Andalucia.unity
+    guid: 13c948e0b8c8c8d459c95d59b52938ce
+  - enabled: 1
+    path: Assets/Scenes/Barcelona.unity
+    guid: 02cc9fbe022e9d246a58832e2b64ccd6
+  - enabled: 1
+    path: Assets/Scenes/Castilla.unity
+    guid: e036904bcefe7fd42a58314770f51c06
+  - enabled: 1
+    path: Assets/Scenes/Madrid.unity
+    guid: 95c8d30a8e700594e93d8dc636ed22ee
+  - enabled: 1
+    path: Assets/Scenes/Pais Vasco.unity
+    guid: e9b7b657eb6c9ae4a8fb3a00e85bed65
+  - enabled: 1
+    path: Assets/Scenes/Valencia.unity
+    guid: e06834dd80b7a214e9b2b9aff9258528
+  - enabled: 1
+    path: Assets/Scenes/Galicia.unity
+    guid: 9f6c5a4598ede21439bad492657adc63
+  - enabled: 1
     path: Assets/Scenes/VictoriaFranquista.unity
     guid: ce7a33529e5eaf24296f06d0e09ca62b
+  - enabled: 1
+    path: Assets/Scenes/VictoriaRepublicana.unity
+    guid: 599ab7520c0d70c429eec40c7e54fd1e
   m_configObjects: {}
