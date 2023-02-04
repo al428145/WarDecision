@@ -12,12 +12,12 @@ public class LogicaPeleaV2 : MonoBehaviour
     public int oroRepublicano = 1300;
     public int territoriosFranquistas = 0;
     public int territoriosRepublicanos = 0;
-    public int diferenciaTropas;
+    int diferenciaTropas;
     int poderFranquista;
     int poderRepublicano;
 
 
-    public void Batalla (seleccionTropasRepublicanas, seleccionTropasFranquistas)
+    public void Batalla ()
     {
 
     }
