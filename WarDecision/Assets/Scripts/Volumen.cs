@@ -5,10 +5,10 @@ using UnityEngine.Audio;
 
 public class Volumen : MonoBehaviour
 {
+    [SerializeField] private AudioMixer audioMixer;
 
-    public AudioMixer audioMixer;
-    public void EstablecerVolumen (float volumen)
+    public void CambiarVolumen(float volumen)
     {
-        audioMixer.SetFloat("volumen", volumen);
+        audioMixer.SetFloat("Volumen", volumen);
     }
 }
