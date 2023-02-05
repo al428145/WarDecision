@@ -6,6 +6,7 @@ TagManager:
   tags:
   - tropas
   - oro
+  - interactuable
   layers:
   - Default
   - TransparentFX
