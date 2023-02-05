@@ -23,6 +23,8 @@ public class LogicaPeleaV2 : MonoBehaviour
     public GameObject barcelona;
     public GameObject valencia;
     public GameObject madrid;
+    public GameObject republicanosUI;
+    public GameObject franquistasUI;
 
     private int turno = 1; // par = republicano, impar = franquista
 
@@ -45,11 +47,13 @@ public class LogicaPeleaV2 : MonoBehaviour
     {
         if (turno % 2 == 0) // turno republicano
         {
-
+            republicanosUI.SetActive(true);
+            franquistasUI.SetActive(false);
         }
         else // turno franquista
         {
-
+            republicanosUI.SetActive(false);
+            franquistasUI.SetActive(true);
         }
 
 
