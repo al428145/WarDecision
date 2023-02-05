@@ -15,6 +15,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Dificultad.unity
     guid: 9b2c77b9b459949439470e8e5a9196b1
   - enabled: 1
+    path: Assets/Scenes/Mapa.unity
+    guid: dc4b61110891f5f4aa2111bd8ae33d2a
+  - enabled: 1
     path: Assets/Scenes/VictoriaFranquista.unity
     guid: ce7a33529e5eaf24296f06d0e09ca62b
   - enabled: 1

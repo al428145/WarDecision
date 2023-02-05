@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class HardMode : MonoBehaviour
 {
@@ -12,6 +14,7 @@ public class HardMode : MonoBehaviour
     public void OnClick()
     {
         controller.Dificultad = 2;
+        SceneManager.LoadScene(2);
     }
 }
 

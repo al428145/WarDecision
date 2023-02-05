@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class MediumMode : MonoBehaviour
 {
@@ -12,5 +14,6 @@ public class MediumMode : MonoBehaviour
     public void OnClick()
     {
         controller.Dificultad = 1;
+        SceneManager.LoadScene(2);
     }
 }
