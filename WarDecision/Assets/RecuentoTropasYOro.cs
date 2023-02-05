@@ -14,8 +14,8 @@ public class RecuentoTropasYOro : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        tropasRecuento.text = tropas.ToString();
-        oroRecuento.text = oro.ToString();
+        tropasRecuento.text = (GameObject.FindWithTag("tropas")).GetComponent<Text>();
+        oroRecuento.text = (GameObject.FindWithTag("oro")).GetComponent<Text>();
     }
 
     // Update is called once per frame
